@@ -1,7 +1,6 @@
 # Alex Ardent Lucero 
-alex.lu.ce9@proton.me | https://github.com/aex-a
-
-**Junior Site Reliability Engineer - SRE | Cloud Infrastructure - GCP/AWS | RHCSA Linux Administrator**
+alex.lu.ce9@proton.me | Las Vegas, NV | exabyte-extra.net | github.com/aex-a  
+**Junior Site Reliability Engineer** **-** **SRE** **|** **Cloud Infrastructure** **-** **GCP/AWS** **|** **RHCSA Linux Administrator**
 
 RHCSA-certified IT professional with a background in high-availability incident response and a focus on Site Reliability Engineering. Dedicated to bridging the gap between proactive observability and automated infrastructure. Currently leveraging OpenTofu, Ansible, and GCP to build secure environments, alongside a deep Linux background to engineer custom automation tools. Recognized with two IT Spotlight Awards for Reliability and Collaboration, I am focused on reducing MTTR and building resilient systems that scale efficiently.
 
@@ -9,7 +8,7 @@ RHCSA-certified IT professional with a background in high-availability incident 
 * **Linux & Systems Administration:** Red Hat - RHEL, openSUSE, Fedora, SELinux, systemd, LVM, LUKS, dnf/zypper
 * **Infrastructure as Code & Automation:** OpenTofu, Terraform - GCS Backend, Ansible, Bash - Proficient, Git, GitHub Actions
 * **Cloud & Networking:** AWS - EC2, ALB, CloudFront, WAF, IAM/SCP, GCP - VPC, Compute Engine, OpenWRT, firewalld, Wireguard, TCP/IP, DNS, Lynis Auditing
-* **Containerization & Operations:** Podman, Python - Environment Management, venv, pipx, API Validation - curl, Incident Response, Root Cause Analysis - RCA, Dynatrace
+* **Containerization, Observability & Operations:** Kubernetes (K3s), Helm, Prometheus, Grafana, Podman, Python - Environment Management, venv, pipx, API Validation - curl, Incident Response, Root Cause Analysis - RCA, Dynatrace
 
 ### WORK EXPERIENCE
 
@@ -29,6 +28,10 @@ RHCSA-certified IT professional with a background in high-availability incident 
 
 ### INFRASTRUCTURE PORTFOLIO 
 
+**Kubernetes Observability Pipeline - k3s-observatory** | *github.com/aex-a/k3s-observatory*
+* **Orchestration & Telemetry:** Bootstrapped an ephemeral, single-node K3s cluster on GCP via OpenTofu `metadata_startup_scripts`, deploying the `kube-prometheus-stack` via Helm to execute synthetic Blackbox probes against external portfolio endpoints.
+* **Architecture & Documentation:** Authored Architecture Decision Records (ADRs) to formally document zero-trust SSH port-forwarding constraints, MVP technical debt, and the roadmap for Traefik Ingress and declarative configuration management.
+
 **Cloud Infrastructure Pipeline - ot-trek** | *github.com/aex-a/ot-trek*
 * **Cloud Architecture:** Architected a highly secure, modular cloud infrastructure on GCP, achieving zero-drift configuration deployment and enforcing least-privilege VPC compliance, by developing a robust Infrastructure as Code - IaC pipeline utilizing OpenTofu/Terraform and `metadata_startup_scripts`.
 * **CI/CD Integration:** Implemented GitHub Actions for automated `fmt` and `validate` checks on pull requests to enforce code quality and prevent configuration drift.
@@ -36,10 +39,6 @@ RHCSA-certified IT professional with a background in high-availability incident 
 **Linux Automation & Configuration - tux-utils** | *github.com/aex-a/tux-utils*
 * **Systems Engineering:** Enhanced Linux server network reliability and real-time monitoring capabilities through the deployment of idempotent Ansible playbooks, engineering custom systemd-managed Bash daemons with graceful SIGINT/SIGTERM signal trapping for continuous queue analysis.
 * **Configuration Management:** Successfully decoupled application logic from system variables via `/etc/` dynamic configurations using Jinja2 templating.
-
-**AWS Edge Routing & Security Topology** | *Independent Architecture*
-* **Cloud Architecture:** Architected and provisioned a secure web topology utilizing AWS Route53 for DNS resolution, routing external traffic through an Application Load Balancer - ALB secured with a custom SSL/TLS certificate.
-* **Security & Compute:** Enforced edge security protocols utilizing AWS Web Application Firewall - WAF and optimized content delivery via CloudFront, managing backend compute resources via EC2 instances.
 
 
 ### CERTIFICATIONS & EDUCATION
