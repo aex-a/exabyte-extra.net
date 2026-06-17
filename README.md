@@ -1,8 +1,9 @@
 # Alex Ardent Lucero 
-alex.lu.ce9@proton.me | Las Vegas, NV | exabyte-extra.net | github.com/aex-a  
-**Junior Site Reliability Engineer** **-** **SRE** **|** **Cloud Infrastructure** **-** **GCP/AWS** **|** **RHCSA Linux Administrator**
+alex.lu.ce9@proton.me | exabyte-extra.net  
+linkedin.com/in/alex-ardent-lucero | github.com/aex-a   
+**Cloud Operations & Observability Specialist** **|** **Infrastructure as Code (GCP/AWS)** **|**  **RHCSA**  
 
-RHCSA-certified IT professional with a background in high-availability incident response and a focus on Site Reliability Engineering. Dedicated to bridging the gap between proactive observability and automated infrastructure. Currently leveraging OpenTofu, Ansible, and GCP to build secure environments, alongside a deep Linux background to engineer custom automation tools. Recognized with two IT Spotlight Awards for Reliability and Collaboration, I am focused on reducing MTTR and building resilient systems that scale efficiently.
+RHCSA-certified Cloud Operations and Incident Management professional specializing in enterprise observability and infrastructure automation. Proven track record of reducing MTTR by bridging the gap between proactive monitoring (Dynatrace, Prometheus) and incident orchestration. Passionate about Linux systems, combining enterprise incident management expertise with hands-on Infrastructure as Code (IaC) development using OpenTofu, Ansible, and GCP.
 
 ### SKILLS
 * **Linux & Systems Administration:** Red Hat - RHEL, openSUSE, Fedora, SELinux, systemd, LVM, LUKS, dnf/zypper
@@ -28,9 +29,9 @@ RHCSA-certified IT professional with a background in high-availability incident 
 
 ### INFRASTRUCTURE PORTFOLIO 
 
-**Kubernetes Observability Pipeline - k3s-observatory** | *github.com/aex-a/k3s-observatory*
-* **Orchestration & Telemetry:** Bootstrapped an ephemeral, single-node K3s cluster on GCP via OpenTofu `metadata_startup_scripts`, deploying the `kube-prometheus-stack` via Helm to execute synthetic Blackbox probes against external portfolio endpoints.
-* **Architecture & Documentation:** Authored Architecture Decision Records (ADRs) to formally document zero-trust SSH port-forwarding constraints, MVP technical debt, and the roadmap for Traefik Ingress and declarative configuration management.
+**Kubernetes Observability Pipeline - k3s-observatory** | *github.com/aex-a/k3s-observatory* 
+* **Orchestration & Telemetry:** Bootstrapped an ephemeral, single-node K3s cluster on GCP via OpenTofu `metadata_startup_scripts`, deploying the `kube-prometheus-stack` via Helm to execute synthetic Blackbox probes against external portfolio endpoints. 
+* **Architecture & Documentation:** Authored Architecture Decision Records (ADRs) to formally document zero-trust SSH port-forwarding constraints, MVP technical debt, and the roadmap for Traefik Ingress and declarative configuration management. 
 
 **Cloud Infrastructure Pipeline - ot-trek** | *github.com/aex-a/ot-trek*
 * **Cloud Architecture:** Architected a highly secure, modular cloud infrastructure on GCP, achieving zero-drift configuration deployment and enforcing least-privilege VPC compliance, by developing a robust Infrastructure as Code - IaC pipeline utilizing OpenTofu/Terraform and `metadata_startup_scripts`.
@@ -46,3 +47,4 @@ RHCSA-certified IT professional with a background in high-availability incident 
 * **Red Hat Certified System Administrator - RHCSA** | ID: 250-187-358 (Active until Dec 2028)
 * **CompTIA Network+** | ID: ec18901b-3cf0-4c91-8756-7b3aba11af21 (Active until Oct 2027)
 * **Associate of Arts - 3.71 GPA** | Lake Superior College (Graduated May 2018)
+
